@@ -5,7 +5,10 @@ shortcuts = {
     'hicetnunc': 'KT1RJ6PbjHpwc3M5rw5s2Nbmefwbuwbdxton',
     'versum': 'KT1LjmAdYQCLBjwv4S2oFkEzyHVkomAf5MrW',
     'fxhash': 'KT1U6EHmNxJTkvaWJ4ThczG4FSDaHC21ssvi,KT1KEa8z6vWXDJrVqtMrAeDVzsvxat3kHaCE',
-    'typed': 'KT1J6NY5AU61GzUX51n59wwiZcGJ9DrNTwbK'
+    'typed': 'KT1J6NY5AU61GzUX51n59wwiZcGJ9DrNTwbK',
+    'kalamint': 'KT1EpGgjQs73QfFJs9z7m1Mxm5MTnpC2tqse',
+    'rarible': 'KT18pVpRXKPY2c4U2yFEGSH3ZnhB2kL8kwXS',
+    'akaswap': 'KT1AFq5XorPduoYyWxs5gEyrFK6fVjJVbtCj'
 }
 
 def do_teztok_request(wallet,KT,role):
