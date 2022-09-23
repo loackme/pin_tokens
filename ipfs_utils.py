@@ -1,5 +1,9 @@
 import json, requests, sys, subprocess
 
+"""  IPFSPinner class coded by odbol for fx_hash_utils
+https://github.com/loackme/fx_hash_utils/commit/634a558a03d113c537aaa06066b517acc93a3ba0
+"""
+
 class IPFSPinner:
     """Pins hashes to a specific service, like Infura, Pinata, or your own locally-running IPFS node."""
 
