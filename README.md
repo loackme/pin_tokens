@@ -25,7 +25,8 @@ Pinning tokens created by the `creator`'s or collected by the `collector`'s wall
 
 ### `--KT`
 
-Contract(s) on which the tokens were minted, comma separated. You can also use the shortcuts `hicetnunc`, `fxhash`, `typed`, `versum` instead of their respective contracts.
+Contract on which the tokens were minted, comma separated. You can also use these shortcuts instead of the contract addresses:  
+`akaswap`, `fxhash`, `hicetnunc`, `kalamint`, `rarible`, `typed`, `versum`
 
 ### `--service_type`, `--api_id` and `--api_key`
 
