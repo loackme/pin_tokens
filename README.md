@@ -29,7 +29,7 @@ Contract(s) on which the tokens were minted, comma separated. You can also use t
 
 ### `--service_type`, `--api_id` and `--api_key`
 
-These scripts allow you to pin tokens using different services.
+This script allows you to pin tokens using different services.
 - Pinata (`pinata`): see https://nftbiker.xyz/pin for instructions on how to generate an api key.
 - Infura (`infura`): once you have created an account on https://infura.io/, create a new IPFS project. In the project settings, look for 'PROJECT ID' and 'PROJECT SECRET'. That's what you need to use as 'api_key' and 'api_secret' respectively.
 - Local Node (`ipfs`): You can also use these scripts to pin to your own locally-running IPFS node. Note that pinning the generator (last step) can take a very long time, depending on your node and the size of the artwork.
