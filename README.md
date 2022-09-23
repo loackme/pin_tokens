@@ -1,4 +1,4 @@
-# fx_hash_utils
+# pin_tokens
 
 A Python script to pin Tezos tokens on IPFS.
 The data are retrieved through [Teztok](https://www.teztok.com/).
