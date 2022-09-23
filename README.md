@@ -21,7 +21,7 @@ Wallet of the creator/collector
 
 ### `--role`
 
-Pinning tokens created by `creator` or collected by `collector` the wallet.
+Pinning tokens created by `creator`'s or collected by `collector`'s wallet.
 
 ### `--KT`
 
