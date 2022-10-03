@@ -50,6 +50,8 @@ class IPFSPinner:
             self.infuraRequest(ipfs_hash, name, type_data)
         elif self.ipfs_service_type == 'nftstorage':
             self.nftstorageRequest(ipfs_hash, name, type_data)
+        elif self.ipfs_service_type == 'filebase':
+            self.filebaseRequest(ipfs_hash, name, type_data)
         else:
             raise Exception('Unknown IPFS service type')
 
@@ -101,6 +103,22 @@ class IPFSPinner:
         }
         r = requests.post(url_pin, data=json.dumps(body), headers=headers)
         if r.status_code == 200:
+            print(f'{type_data} pinned')
+        else:
+            print(f'Error pinning {type_data}: {r.status_code}')
+
+    def filebaseRequest(self, ipfs_hash,name, type_data):
+        url_pin = "https://api.filebase.io/v1/ipfs/pins"
+        headers = {
+            'Authorization': f'Bearer {self.api_key}',
+            'content-type': 'application/json'
+        }
+        body = {
+            'name': f'{name} {type_data}',
+            'cid' : ipfs_hash
+        }
+        r = requests.post(url_pin, data=json.dumps(body), headers=headers)
+        if r.status_code == 202:
             print(f'{type_data} pinned')
         else:
             print(f'Error pinning {type_data}: {r.status_code}')

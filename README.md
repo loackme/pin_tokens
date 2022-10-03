@@ -34,6 +34,7 @@ This script allows you to pin tokens using different services.
 - [Pinata](https://app.pinata.cloud/) `pinata`: see https://nftbiker.xyz/pin for instructions on how to generate an api key.
 - [Infura](https://infura.io/) `infura`: once you have created an account, create a new IPFS project. In the project settings, look for 'PROJECT ID' and 'PROJECT SECRET'. That's what you need to use as `api_key` and `api_secret` respectively.
 - [NFT.Storage](https://nft.storage/) `nftstorage`: once you have created an account, go to https://nft.storage/manage/ to create an `api_key`. `api_secret` is not required.
+- [Filebase](https://filebase.com/) `filebase`: once you have created an account, create a bucket and go to https://console.filebase.com/keys to generate a token for this bucket. Use this token as `api_key`. `api_secret` is not required.
 - Local Node `ipfs`: You can also use these scripts to pin to your own locally-running IPFS node. `api_key` and `api_secret` are not required.
 
 
