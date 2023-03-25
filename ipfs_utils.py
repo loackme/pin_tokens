@@ -30,7 +30,7 @@ class IPFSPinner:
             ipfs_hash = token['metadata_uri'][7:]
             self.pin(ipfs_hash,name,"Metadata")
         if not(token['artifact_uri'] is None):
-            ipfs_hash = token['artifact_uri'][7:]
+            ipfs_hash = token['artifact_uri'][7:].split('?')[0]
             self.pin(ipfs_hash,name,"Artifact")
         if not(token['display_uri'] is None):
             ipfs_hash = token['display_uri'][7:]
